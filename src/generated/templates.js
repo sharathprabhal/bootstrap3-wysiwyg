@@ -1,3 +1,5 @@
+module.exports = function(Handlebars) {
+
 this["wysihtml5"] = this["wysihtml5"] || {};
 this["wysihtml5"]["tpl"] = this["wysihtml5"]["tpl"] || {};
 
@@ -417,3 +419,7 @@ function program17(depth0,data) {
   buffer += "\n    </a>\n  </div>\n</li>\n";
   return buffer;
   });
+
+return this["wysihtml5"]["tpl"];
+
+};
