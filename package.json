@@ -1,7 +1,8 @@
 {
   "name": "bootstrap3-wysihtml5-commonjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Bootstrap 3 compatible wysiwyg editor to use with commonjs",
+  "main": "./src/bootstrap3-wysihtml5",
   "dependencies": {
     "bootstrap": "^3.3.4",
     "handlebars": "1.3.0",

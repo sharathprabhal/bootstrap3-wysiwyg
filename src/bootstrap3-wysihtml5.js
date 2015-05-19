@@ -1,6 +1,6 @@
 'use strict';
 
-var $ = global.jQuery = require('jquery');
+var $ = global.jQuery;
 var bootstrap = require('bootstrap');
 var Handlebars = require('handlebars');
 var wysihtml5 = require('wysihtml5');
